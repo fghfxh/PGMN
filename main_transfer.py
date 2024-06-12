@@ -1,9 +1,4 @@
 import copy
-import os
-os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
-os.environ["WANDB_API_KEY"] = '90a619888f5e295a68f1e5f9b3bdf7c2b1d77bfa'
-os.environ["WANDB_MODE"] = "offline"
-
 import random
 from collections import Counter, defaultdict
 from dataclasses import dataclass
